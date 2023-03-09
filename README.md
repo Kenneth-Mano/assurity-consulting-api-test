@@ -1,2 +1,21 @@
-# assurity-consulting-api-test
+# Assurity Consulting Technical Test
+<h1>Introduction</h1>
 This repository contains my solution for the Assurity Consulting technical test. 
+
+<h2>Description of Technical Test</h2>
+The test requires that the API https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false be called and the following assertions tested:
+
+<ul>
+<li> The "Name" property returned is "Carbon credits". </li>
+<li> The "CanRelist" property is true. </li>
+<li> The "Promotions" element which has the "Name" equal to "Gallery" has a "Description"  property that contains the text "Good position in category". </li>
+</ul>
+
+<h2>How to Run the Tests</h2>
+To run the tests, perform the following steps:
+
+<ol>
+<li> </li>
+<li> </li>
+<li> </li>
+</ol>
