@@ -15,7 +15,6 @@ The test requires that the API https://api.tmsandbox.co.nz/v1/Categories/6327/De
 To run the tests, perform the following steps:
 
 <ol>
-<li> </li>
-<li> </li>
-<li> </li>
+<li> Clone the repository using the command `git clone https://github.com/Kenneth-Mano/assurity-consulting-api-test.git`</li>
+<li> Run the tests by running the command `python solution.py`</li>
 </ol>
