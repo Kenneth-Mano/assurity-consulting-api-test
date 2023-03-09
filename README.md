@@ -16,5 +16,9 @@ To run the tests, perform the following steps:
 
 <ol>
 <li> Clone the repository using the command `git clone https://github.com/Kenneth-Mano/assurity-consulting-api-test.git`</li>
-<li> Run the tests by running the command `python solution.py`</li>
+<li> Run the tests by doing one of the following:</li>
+<ul>
+<li>Running the command `python solution.py` in command prompt</li>
+<li>Opening the solution.py file in Visual Studio Code and pressing F5 to run the file</li>
+</ul>
 </ol>
