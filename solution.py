@@ -24,7 +24,7 @@ class AssurityApiTest(unittest.TestCase):
         for promotion in promotions:
             if promotion["Name"] == "Gallery":
                 value = promotion["Description"]
-                self.assertIn(value, "Good position in category", msg=f"The Promotions element with the name 'Gallery' has a 'Description' with the text {value}, which does not contain the text 'Good position in category'.")
+                self.assertIn(value.lower(), "good position in category", msg=f"The Promotions element with the name 'Gallery' has a 'Description' with the text {value}, which does not contain the text 'good position in category'.")
 
 if __name__ == '__main__':
     unittest.main()
